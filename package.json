@@ -1,0 +1,52 @@
+{
+  "name": "@cssnr/vitepress-plugin-copybutton",
+  "version": "0.0.1",
+  "license": "GPL-3.0-only",
+  "description": "VitePress Plugin to easily add a copy button to a heading, table, code snippet or text with automatic detection or pass any string.",
+  "homepage": "https://github.com/cssnr/vitepress-plugin-copybutton",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssnr/vitepress-plugin-copybutton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cssnr/vitepress-plugin-copybutton/issues"
+  },
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/cssnr"
+  },
+  "keywords": [
+    "vitepress-plugin",
+    "vitepress",
+    "plugin",
+    "copy",
+    "button"
+  ],
+  "main": "dist/CopyButton.umd.js",
+  "module": "dist/CopyButton.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepare": "npm run build",
+    "prettier": "npx prettier --check ."
+  },
+  "peerDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "prettier": "^3.6.2",
+    "vite": "^7.1.5",
+    "vue": "^3.5.21"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/CopyButton.es.js",
+      "require": "./dist/CopyButton.umd.js"
+    },
+    "./style.css": "./dist/CopyButton.css"
+  }
+}
