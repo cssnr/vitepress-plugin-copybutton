@@ -33,7 +33,7 @@
     "prettier": "npx prettier --check ."
   },
   "peerDependencies": {
-    "vitepress": "^1.6.4",
+    "vitepress": "*",
     "vue": "^3.0.0"
   },
   "devDependencies": {
