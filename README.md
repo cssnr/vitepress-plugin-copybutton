@@ -1,7 +1,8 @@
 [![NPM Downloads](https://img.shields.io/npm/dw/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-plugin-copybutton)
 [![NPM Version](https://img.shields.io/npm/v/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-plugin-copybutton)
 [![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/releases/latest)
-[![GitHub Deployments](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=npm&label=deploy)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments)
+[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://bundlephobia.com/package/@cssnr/vitepress-plugin-copybutton)
+[![GitHub Deployments](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=github&label=deploy)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments)
 [![Release](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/release.yaml?logo=cachet&label=release)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/release.yaml)
 [![Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/lint.yaml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/pulse)
@@ -163,6 +164,7 @@ This plugin is being used extensively on the following pages:
 
 - https://docker-deploy.cssnr.com/docs/inputs
 - https://portainer-deploy.cssnr.com/docs/inputs
+- https://vitepress-swiper.cssnr.com/guides/options
 
 ## Support
 
@@ -179,6 +181,12 @@ If you are experiencing an issue/bug or getting unexpected results:
 - Report an Issue: [cssnr/vitepress-plugin-copybutton/issues](https://github.com/cssnr/vitepress-plugin-copybutton/issues)
 - Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 - Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=VitePress%20Plugin%20CopyButton)
+
+### More VitePress Plugins
+
+- [SwiperJS](https://github.com/cssnr/vitepress-swiper) - Photo Gallery
+- [Contributors](https://github.com/cssnr/vitepress-plugin-contributors) - GitHub Contributors
+- [Copy Button](https://github.com/cssnr/vitepress-plugin-copybutton) - Copy Text Button
 
 # Contributing
 
