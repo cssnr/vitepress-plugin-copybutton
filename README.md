@@ -182,6 +182,12 @@ If you are experiencing an issue/bug or getting unexpected results:
 - Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 - Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=VitePress%20Plugin%20CopyButton)
 
+### More VitePress Plugins
+
+- [SwiperJS](https://github.com/cssnr/vitepress-swiper) - Photo Gallery
+- [Contributors](https://github.com/cssnr/vitepress-plugin-contributors) - GitHub Contributors
+- [Copy Button](https://github.com/cssnr/vitepress-plugin-copybutton) - Copy Text Button
+
 # Contributing
 
 For instructions on creating a PR, see the [CONTRIBUTING.md](#contributing-ov-file).
