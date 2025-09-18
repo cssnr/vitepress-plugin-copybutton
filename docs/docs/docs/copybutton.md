@@ -31,21 +31,7 @@ With a boolean parameter:
 <CB prev />
 ```
 
-<div class="tip custom-block" style="padding-top: 8px">
-
-See the [CopyButton Documentation](../docs/copybutton.md) for **usage** details and more **examples**.
-
-</div>
-
-## Demos
-
-The plugin is running on these pages:
-
-- https://django-files.github.io/ and [/team](https://django-files.github.io/team)
-- https://docker-deploy.cssnr.com/
-- https://portainer-deploy.cssnr.com/
-
-If you have a live demo, let us know and we will post it here...
+See the [Examples](../guides/examples.md) for more ways to use the CopyButton.
 
 &nbsp;
 

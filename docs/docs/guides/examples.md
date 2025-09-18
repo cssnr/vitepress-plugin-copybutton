@@ -1,4 +1,5 @@
 ---
+outline: 2
 prev:
   text: 'Get Started'
   link: '/guides/get-started'
@@ -153,8 +154,17 @@ Some text. some inline code
 | text string `inline code` <CB prev /> | `<CB prev />` | inline code             |
 | text string `inline code` <CB all />  | `<CB all />`  | inline code text string |
 
+## Demos
+
+The plugin is used extensively on these pages:
+
+- https://docker-deploy.cssnr.com/docs/inputs
+- https://portainer-deploy.cssnr.com/docs/inputs
+
+If you have a live demo, let us know and we will post it here...
+
 <div class="tip custom-block" style="padding-top: 8px; margin-top: 64px;">
 
-See the [CopyButton Documentation](../docs/copybutton.md) for `<CB />` tag usage or view the [Examples](examples.md).
+See the [CopyButton Documentation](../docs/copybutton.md) for `<CB />` tag usage.
 
 </div>

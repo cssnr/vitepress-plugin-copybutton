@@ -27,12 +27,21 @@ features:
   - title: Install and Setup
     details: View Setup and Usage Guides
     link: /guides/get-started
+  - title: Live Demos
+    details: View Examples and Live Demos
+    link: /guides/examples
   - title: Documentation
     details: View the Documentation
     link: /docs/copybutton
   - title: Get Support
     details: Get Help with Anything
     link: /support
+  - title: NPM Package
+    details: View Package on NPM
+    link: https://www.npmjs.com/package/@cssnr/vitepress-plugin-copybutton
+  - title: GitHub Repository
+    details: View the Source on GitHub
+    link: https://github.com/cssnr/vitepress-plugin-copybutton
 ---
 
 <div class="badges">

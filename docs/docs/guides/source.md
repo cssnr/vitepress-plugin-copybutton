@@ -31,7 +31,7 @@ export default {
 
 <Badge type="info">VPBadge</Badge> Only required if you are using the VitePress [Badge](https://vitepress.dev/reference/default-theme-badge#badge).
 
-<div class="tip custom-block" style="padding-top: 8px; margin-top: 64px;">
+<div class="tip custom-block" style="padding-top: 8px; margin-top: 32px;">
 
 See the [CopyButton Documentation](../docs/copybutton.md) for `<CB />` tag usage or view the [Examples](examples.md).
 
