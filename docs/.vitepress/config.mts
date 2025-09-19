@@ -82,9 +82,9 @@ export default defineConfig({
     logo: settings.image32,
     nav: [
       // { text: 'Home', link: '/' },
-      { text: 'Install', link: '/guides/get-started', activeMatch: '/guides/' },
+      { text: 'Get Started', link: '/guides/get-started', activeMatch: '/guides/' },
       { text: 'Docs', link: '/docs/copybutton' },
-      { text: 'Support', link: '/support' },
+      { text: 'Help', link: '/support' },
       {
         text: 'Links',
         items: [
@@ -149,13 +149,13 @@ export default defineConfig({
     },
 
     search: {
-      provider: 'local',
-      // provider: 'algolia',
-      // options: {
-      //   appId: '',
-      //   apiKey: '',
-      //   indexName: 'vitepress-copybutton',
-      // },
+      // provider: 'local',
+      provider: 'algolia',
+      options: {
+        appId: 'TJPL9YV6V5',
+        apiKey: 'efb2f7aad9d9dfd902244d3707367eef',
+        indexName: 'vitepress-copybutton',
+      },
     },
 
     // footer: {

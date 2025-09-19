@@ -1,9 +1,9 @@
 [![NPM Downloads](https://img.shields.io/npm/dw/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-plugin-copybutton)
 [![NPM Version](https://img.shields.io/npm/v/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-plugin-copybutton)
 [![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/releases)
-[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://bundlephobia.com/package/@cssnr/vitepress-plugin-copybutton)
-[![Deployments NPM](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=github&label=release)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/npm)
-[![Deployments Pages](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/docs?logo=github&label=docs)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/docs)
+[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-plugin-copybutton?logo=bookstack&logoColor=white)](https://bundlephobia.com/package/@cssnr/vitepress-plugin-copybutton)
+[![Deployments NPM](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=npm&label=deploy)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/npm)
+[![Deployments Pages](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/docs?logo=vitepress&logoColor=white&label=docs)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/docs)
 [![WF Release](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/release.yaml?logo=cachet&label=release)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/release.yaml)
 [![WF Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/lint.yaml)
 [![GitHub Contributors](https://img.shields.io/github/contributors/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/graphs/contributors)
@@ -22,13 +22,14 @@
 - [Options](#Setup)
 - [Usage](#Usage)
 - [Examples](#Examples)
-  - [Headings](#Headings)
-  - [Other](#Other)
-  - [Demos](#Demos)
 - [Support](#Support)
 - [Contributing](#Contributing)
 
 A [VitePress](https://vitepress.dev/) Plugin to easily add a copy button to a heading, table, code snippet or paragraph with automatic text detection or pass any string.
+
+> [!IMPORTANT]  
+> For **Up-to-Date** Documentation, please visit the website:  
+> https://vitepress-copybutton.cssnr.com/
 
 ## Install
 
