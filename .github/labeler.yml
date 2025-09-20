@@ -1,6 +1,11 @@
+workflows:
+  - changed-files:
+      - any-glob-to-any-file: ".github/**"
+
 documentation:
   - changed-files:
       - any-glob-to-any-file: "docs/**"
+
 source:
   - changed-files:
       - any-glob-to-any-file: "src/**"
