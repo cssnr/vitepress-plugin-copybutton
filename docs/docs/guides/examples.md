@@ -10,7 +10,7 @@ next:
 
 # Copy Button Examples
 
-Can be added directly to [headings](#headings) and [other](#others) places.
+Can be added directly to [headings](#headings), [text](#text), [tables](#table) and [more](#demos).
 
 ## Headings
 
@@ -84,9 +84,7 @@ Custom Text
 
 :::
 
-## Others
-
-### Text
+## Text
 
 Lorem ipsum dolor sit amet. <CB />
 
@@ -144,7 +142,7 @@ Some text. some inline code
 
 :::
 
-### Table
+## Table
 
 | Key                                   | Tag&nbsp;Used | Result                  |
 | :------------------------------------ | :-----------: | ----------------------- |
