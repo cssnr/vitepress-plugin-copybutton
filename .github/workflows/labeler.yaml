@@ -19,8 +19,7 @@ jobs:
           ref: master
           path: .configs
           sparse-checkout: |
-            labels/labeler.yaml
-            labels/labels.yaml
+            labels/**
           sparse-checkout-cone-mode: false
 
       - name: "Label Creator"
@@ -28,10 +27,10 @@ jobs:
         uses: cssnr/label-creator-action@master
         with:
           #url: "https://raw.githubusercontent.com/cssnr/label-creator-action/refs/heads/master/.github/labels.yaml"
-          file: .configs/labels.yaml
+          file: .configs/labels/labels.yaml
 
       - name: "Labeler"
         uses: actions/labeler@v6
         with:
           sync-labels: true
-          configuration-path: .configs/labels.yaml
+          configuration-path: .configs/labels/labels.yaml
