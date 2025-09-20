@@ -18,9 +18,20 @@ jobs:
           repository: cssnr/configs
           ref: master
           path: .configs
+          sparse-checkout-cone-mode: false
           sparse-checkout: |
             labels/**
-          sparse-checkout-cone-mode: false
+
+      - name: "Debug"
+        continue-on-error: true
+        run: |
+          echo "::group::labels.yaml"
+          cat .configs/labels/labels.yaml
+          echo "::endgroup::"
+
+          echo "::group::labeler.yaml"
+          cat .configs/labels/labeler.yaml
+          echo "::endgroup::"
 
       - name: "Label Creator"
         continue-on-error: true
@@ -33,4 +44,4 @@ jobs:
         uses: actions/labeler@v6
         with:
           sync-labels: true
-          configuration-path: .configs/labels/labels.yaml
+          configuration-path: .configs/labels/labeler.yaml
