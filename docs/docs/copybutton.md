@@ -1,4 +1,8 @@
-# Contributors
+---
+pageClass: copybutton-page
+---
+
+# CopyButton
 
 All parameters are optional.
 
@@ -39,8 +43,8 @@ See the [Examples](../guides/examples.md) for more ways to use the CopyButton.
 If you need more options, please [open a feature request](https://github.com/cssnr/vitepress-plugin-copybutton/discussions/categories/feature-requests)
 :::
 
-<style module>
-table td:nth-child(1) {
+<style>
+.copybutton-page table td:nth-child(1) {
   white-space: nowrap;
 }
 </style>
