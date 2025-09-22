@@ -68,7 +68,7 @@ const copyText = (event) => {
   </span>
 </template>
 
-<style>
+<style scoped>
 .copy-button {
   display: inline-block;
   transform: translateY(-2px);

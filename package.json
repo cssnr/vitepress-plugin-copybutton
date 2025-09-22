@@ -1,20 +1,7 @@
 {
   "name": "@cssnr/vitepress-plugin-copybutton",
   "version": "0.0.1",
-  "license": "GPL-3.0-only",
   "description": "VitePress Plugin to easily add a copy button to a heading, table, code snippet or text with automatic detection or pass any string.",
-  "homepage": "https://github.com/cssnr/vitepress-plugin-copybutton",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cssnr/vitepress-plugin-copybutton.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cssnr/vitepress-plugin-copybutton/issues"
-  },
-  "funding": {
-    "type": "ko-fi",
-    "url": "https://ko-fi.com/cssnr"
-  },
   "keywords": [
     "vitepress-plugin",
     "vitepress",
@@ -22,6 +9,26 @@
     "copy",
     "button"
   ],
+  "homepage": "https://github.com/cssnr/vitepress-plugin-copybutton",
+  "bugs": {
+    "url": "https://github.com/cssnr/vitepress-plugin-copybutton/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssnr/vitepress-plugin-copybutton.git"
+  },
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/cssnr"
+  },
+  "license": "GPL-3.0-only",
+  "exports": {
+    ".": {
+      "import": "./dist/CopyButton.es.js",
+      "require": "./dist/CopyButton.umd.js"
+    },
+    "./style.css": "./dist/CopyButton.css"
+  },
   "main": "dist/CopyButton.umd.js",
   "module": "dist/CopyButton.es.js",
   "files": [
@@ -29,31 +36,27 @@
   ],
   "scripts": {
     "build": "vite build",
-    "prepare": "npm run build",
-    "docs": "vitepress dev docs",
+    "docs": "npm run docs:dev",
     "docs:build": "vitepress build docs",
+    "docs:deploy": "npm run get-contributors && npm run docs:build",
+    "docs:dev": "vitepress dev docs",
     "docs:preview": "vitepress preview docs",
     "get-contributors": "npx get-contributors cssnr/vitepress-plugin-copybutton -f docs/.vitepress/contributors.json",
-    "prettier": "npx prettier --check ."
-  },
-  "peerDependencies": {
-    "vitepress": "*",
-    "vue": "^3.0.0"
+    "prepare": "npm run build",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write ."
   },
   "devDependencies": {
     "@cssnr/vitepress-plugin-contributors": "^0.0.3",
     "@vitejs/plugin-vue": "^6.0.1",
     "prettier": "^3.6.2",
-    "vite": "^7.1.5",
+    "vite": "^7.1.7",
     "vitepress": "^1.6.4",
     "vitepress-plugin-group-icons": "^1.6.3",
     "vue": "^3.5.21"
   },
-  "exports": {
-    ".": {
-      "import": "./dist/CopyButton.es.js",
-      "require": "./dist/CopyButton.umd.js"
-    },
-    "./style.css": "./dist/CopyButton.css"
+  "peerDependencies": {
+    "vitepress": "*",
+    "vue": "^3.0.0"
   }
 }
