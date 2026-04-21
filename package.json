@@ -22,20 +22,26 @@
     "url": "https://ko-fi.com/cssnr"
   },
   "license": "GPL-3.0-only",
+  "author": {
+    "name": "Shane",
+    "url": "https://cssnr.github.io/"
+  },
   "exports": {
     ".": {
       "import": "./dist/CopyButton.es.js",
-      "require": "./dist/CopyButton.umd.js"
+      "require": "./dist/CopyButton.umd.js",
+      "types": "./dist/CopyButton.vue.d.ts"
     },
     "./style.css": "./dist/CopyButton.css"
   },
   "main": "dist/CopyButton.umd.js",
   "module": "dist/CopyButton.es.js",
+  "types": "dist/CopyButton.vue.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && vue-tsc",
     "docs": "npm run docs:dev",
     "docs:build": "vitepress build docs",
     "docs:deploy": "npm run get-contributors && npm run docs:build",
@@ -44,19 +50,20 @@
     "get-contributors": "npx get-contributors cssnr/vitepress-plugin-copybutton -f docs/.vitepress/contributors.json",
     "prepare": "npm run build",
     "prettier:check": "npx prettier --check .",
-    "prettier:write": "npx prettier --write ."
+    "prettier:write": "npx prettier --write .",
+    "yamllint": "yamllint -c .github/yamllint.yaml ."
   },
   "devDependencies": {
-    "@cssnr/vitepress-plugin-contributors": "^0.0.5",
-    "@vitejs/plugin-vue": "^6.0.2",
-    "prettier": "^3.6.2",
-    "vite": "^7.2.4",
+    "@cssnr/vitepress-plugin-contributors": "^0.2.0",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "prettier": "^3.8.3",
+    "vite": "^8.0.9",
     "vitepress": "^1.6.4",
-    "vitepress-plugin-group-icons": "^1.6.5",
-    "vue": "^3.5.25"
+    "vitepress-plugin-group-icons": "^1.7.5",
+    "vue": "^3.5.32",
+    "vue-tsc": "^3.2.7"
   },
   "peerDependencies": {
-    "vitepress": "*",
     "vue": "^3.0.0"
   }
 }
