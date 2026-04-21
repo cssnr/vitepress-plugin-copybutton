@@ -49,7 +49,7 @@ features:
 [![NPM Version](https://img.shields.io/npm/v/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-plugin-copybutton)
 [![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/releases)
 [![NPM Downloads](https://img.shields.io/npm/dm/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://npm-stat.com/charts.html?package=%40cssnr%2Fvitepress-plugin-copybutton)
-[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-plugin-copybutton?logo=bookstack&logoColor=white)](https://bundlephobia.com/package/@cssnr/vitepress-plugin-copybutton)
+[![Bundlephobia Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-plugin-copybutton?logo=bookstack&logoColor=white)](https://bundlephobia.com/package/@cssnr/vitepress-plugin-copybutton)
 [![Deployments NPM](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=npm&label=deploy)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/npm)
 [![Deployments Docs](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/docs?logo=vitepress&logoColor=white&label=docs)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/docs)
 [![Workflow Release](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/release.yaml?logo=cachet&label=release)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/release.yaml)
