@@ -2,18 +2,19 @@
 [![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/releases)
 [![NPM Downloads](https://img.shields.io/npm/dm/%40cssnr%2Fvitepress-plugin-copybutton?logo=npm)](https://npm-stat.com/charts.html?package=%40cssnr%2Fvitepress-plugin-copybutton)
 [![Bundlephobia Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-plugin-copybutton?logo=bookstack&logoColor=white)](https://bundlephobia.com/package/@cssnr/vitepress-plugin-copybutton)
-[![Deployments NPM](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=npm&label=deploy)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/npm)
-[![Deployments Docs](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/docs?logo=vitepress&logoColor=white&label=docs)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/docs)
-[![Workflow Release](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/release.yaml?logo=cachet&label=release)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/release.yaml)
-[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/lint.yaml)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/vitepress-plugin-copybutton?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/vitepress-plugin-copybutton?tab=readme-ov-file#readme)
-[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/vitepress-plugin-copybutton?logo=htmx&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/blob/master/src/CopyButton.vue)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/vitepress-plugin-copybutton?logo=github&label=updated)](https://github.com/cssnr/vitepress-plugin-copybutton/pulse)
-[![GitHub Issues](https://img.shields.io/github/issues/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/issues)
-[![GitHub Contributors](https://img.shields.io/github/contributors/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/graphs/contributors)
-[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/vitepress-plugin-copybutton?logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/discussions)
-[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/vitepress-plugin-copybutton?style=flat&logo=github)](https://github.com/cssnr/vitepress-plugin-copybutton/stargazers)
-[![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=github&label=org%20stars)](https://cssnr.github.io/)
+[![Deployment NPM](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/npm?logo=github&label=npm)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/npm)
+[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/vitepress-plugin-copybutton/docs?logo=vitepress&logoColor=white&label=docs)](https://github.com/cssnr/vitepress-plugin-copybutton/deployments/docs)
+[![Workflow Release](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/release.yaml?logo=norton&logoColor=white&label=release)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/release.yaml)
+[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-plugin-copybutton/lint.yaml?logo=norton&logoColor=white&label=lint)](https://github.com/cssnr/vitepress-plugin-copybutton/actions/workflows/lint.yaml)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/vitepress-plugin-copybutton?logo=listenhub&label=updated)](https://github.com/cssnr/vitepress-plugin-copybutton/pulse)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/vitepress-plugin-copybutton?logo=googlecloudstorage&logoColor=white&label=repo%20size)](https://github.com/cssnr/vitepress-plugin-copybutton?tab=readme-ov-file#readme)
+[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/vitepress-plugin-copybutton?logo=devbox)](https://github.com/cssnr/vitepress-plugin-copybutton?tab=readme-ov-file#readme)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/vitepress-plugin-copybutton?logo=southwestairlines)](https://github.com/cssnr/vitepress-plugin-copybutton/graphs/contributors)
+[![GitHub Issues](https://img.shields.io/github/issues/cssnr/vitepress-plugin-copybutton?logo=codeforces&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/issues)
+[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/vitepress-plugin-copybutton?logo=theconversation)](https://github.com/cssnr/vitepress-plugin-copybutton/discussions)
+[![GitHub Forks](https://img.shields.io/github/forks/cssnr/vitepress-plugin-copybutton?style=flat&logo=forgejo&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/forks)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/vitepress-plugin-copybutton?style=flat&logo=gleam&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/stargazers)
+[![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=apachespark&logoColor=white&label=org%20stars)](https://cssnr.github.io/)
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
@@ -175,19 +176,17 @@ This plugin is being used extensively on the following pages:
 
 ## Support
 
-Please let us know if you run into any [issues](https://github.com/cssnr/vitepress-plugin-copybutton/issues)
-or want to see [a new feature](https://github.com/cssnr/vitepress-plugin-copybutton/discussions/categories/feature-requests).
+If you run into any issues or need help getting started, please do one of the following:
 
-For general help or to request a feature:
+- Report an Issue: <https://github.com/cssnr/vitepress-plugin-copybutton/issues>
+- Q&A Discussion: <https://github.com/cssnr/vitepress-plugin-copybutton/discussions/categories/q-a>
+- Request a Feature: <https://github.com/cssnr/vitepress-plugin-copybutton/issues/new?template=1-feature.yaml>
+- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
-- Q&A Discussion: [discussions/q-a](https://github.com/cssnr/vitepress-plugin-copybutton/discussions/categories/q-a)
-- Request a Feature: [discussions/feature-requests](https://github.com/cssnr/vitepress-plugin-copybutton/discussions/categories/feature-requests)
-
-If you are experiencing an issue/bug or getting unexpected results:
-
-- Report an Issue: [cssnr/vitepress-plugin-copybutton/issues](https://github.com/cssnr/vitepress-plugin-copybutton/issues)
-- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
-- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=VitePress%20Plugin%20CopyButton)
+[![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/issues/new?template=1-feature.yaml)
+[![Issues](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/issues)
+[![Discussions](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=livechat&logoColor=white)](https://github.com/cssnr/vitepress-plugin-copybutton/discussions)
+[![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
 
 ### More VitePress Plugins
 
@@ -207,3 +206,11 @@ Please consider making a donation to support the development of this project and
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/cssnr)
 
 For a full list of current projects visit: [https://cssnr.github.io/](https://cssnr.github.io/)
+
+<a href="https://github.com/cssnr/vitepress-plugin-copybutton/stargazers">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cssnr/vitepress-plugin-copybutton&type=date&legend=bottom-right&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cssnr/vitepress-plugin-copybutton&type=date&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cssnr/vitepress-plugin-copybutton&type=date&legend=bottom-right" />
+ </picture>
+</a>
