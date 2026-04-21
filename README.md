@@ -32,9 +32,7 @@
 
 A [VitePress](https://vitepress.dev/) Plugin to easily add a copy button to a heading, table, code snippet or paragraph with automatic text detection or pass any string.
 
-> [!IMPORTANT]  
-> For **Up-to-Date** Documentation, please visit the website:  
-> https://vitepress-copybutton.cssnr.com/
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://vitepress-copybutton.cssnr.com/)
 
 ## Install
 
@@ -65,6 +63,8 @@ export default {
 Note: The component name `CB` is an arbitrary string based on your preference.
 
 `VPBadge` - Only required if you are using the VitePress [Badge](https://vitepress.dev/reference/default-theme-badge#badge).
+
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://vitepress-copybutton.cssnr.com/guides/get-started#setup)
 
 ## Usage
 
@@ -165,6 +165,8 @@ Some text. `some inline code` <CB all />
 ```
 
 Some text. some inline code
+
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://vitepress-copybutton.cssnr.com/docs/copybutton)
 
 ### Demos
 
