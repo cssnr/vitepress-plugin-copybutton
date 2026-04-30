@@ -48,6 +48,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:preview": "vitepress preview docs",
     "get-contributors": "npx get-contributors cssnr/vitepress-plugin-copybutton -f docs/.vitepress/contributors.json",
+    "lint": "eslint src",
     "prepare": "npm run build",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
@@ -55,12 +56,16 @@
   },
   "devDependencies": {
     "@cssnr/vitepress-plugin-contributors": "^0.2.0",
+    "@eslint/js": "^10.0.1",
     "@vitejs/plugin-vue": "^6.0.6",
+    "eslint": "^10.2.1",
+    "eslint-plugin-vue": "^10.9.0",
     "prettier": "^3.8.3",
-    "vite": "^8.0.9",
+    "typescript-eslint": "^8.59.1",
+    "vite": "^8.0.10",
     "vitepress": "^1.6.4",
     "vitepress-plugin-group-icons": "^1.7.5",
-    "vue": "^3.5.32",
+    "vue": "^3.5.33",
     "vue-tsc": "^3.2.7"
   },
   "peerDependencies": {
