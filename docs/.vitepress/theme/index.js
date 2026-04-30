@@ -11,14 +11,14 @@ import contributors from '../contributors.json'
 
 // noinspection JSUnusedGlobalSymbols
 export default {
-    ...DefaultTheme,
+  ...DefaultTheme,
 
-    enhanceApp({ app }) {
-        app.component('Badge', VPBadge)
+  enhanceApp({ app }) {
+    app.component('Badge', VPBadge)
 
-        app.component('CB', CopyButton)
+    app.component('CB', CopyButton)
 
-        app.component('Contributors', Contributors)
-        app.config.globalProperties.$contributors = contributors
-    },
+    app.component('Contributors', Contributors)
+    app.config.globalProperties.$contributors = contributors
+  },
 }
