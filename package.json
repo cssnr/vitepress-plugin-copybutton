@@ -57,16 +57,18 @@
   "devDependencies": {
     "@cssnr/vitepress-plugin-contributors": "^0.2.0",
     "@eslint/js": "^10.0.1",
-    "@vitejs/plugin-vue": "^6.0.6",
-    "eslint": "^10.2.1",
-    "eslint-plugin-vue": "^10.9.0",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "eslint": "^10.4.1",
+    "eslint-plugin-vue": "^10.9.2",
+    "globals": "^17.6.0",
     "prettier": "^3.8.3",
-    "typescript-eslint": "^8.59.1",
-    "vite": "^8.0.10",
+    "typescript-eslint": "^8.60.1",
+    "vite": "^8.0.16",
     "vitepress": "^1.6.4",
+    "vitepress-chat": "^0.0.1",
     "vitepress-plugin-group-icons": "^1.7.5",
-    "vue": "^3.5.33",
-    "vue-tsc": "^3.2.7"
+    "vue": "^3.5.35",
+    "vue-tsc": "^3.3.3"
   },
   "peerDependencies": {
     "vue": "^3.0.0"
